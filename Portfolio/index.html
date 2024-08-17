@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!--Code Supplementaire-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+        <!--Code Supplementaire-->
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <!--Typing-->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        
+        <title>Mon Portfolio</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="./assets/img/burkina.png" alt="">
+                </a>
+
+                <div class="nav__menu " id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Accueil</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#specs" class="nav__link">A propos</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link" id="cart-icon">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+            <!--Code supplementaire-->
+            
+            <!--Code supplementaire-->
+        </header>
+
+        <main class="main">
+            <!--=============== HOME ===============-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div>
+                        <img src="assets/img/moi-test.png" alt="" class="home__img">
+                    </div>
+                    
+                    <div class="home__data">
+                        <div class="home__header">
+                            <h1 class="home__title">KaledEuro</h1>
+                            <h2 class="home__subtitle">A votre service</h2>
+                        </div>
+
+                        <div class="home__footer">
+                            <h3 class="home__title-description">Informaticien</h3>
+                            <p class="home__description"> 
+                                Je vous propose des services en matière de Developpement Web, Programmation, Maintenance et Cybersécurité.
+                            </p>
+                            <a href="#" class="button button--flex">
+                                <span class="button--flex">
+                                    <i class="ri-information-line button__icon"></i> <span class="addict-text"> Rêvez de votre projet pendant que je le réalise</span>
+                                </span>
+                                <!--<span class="home__price">-20%</span>-->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--=============== SPONSOR ===============-->
+           
+
+            <!--=============== SPECS ===============-->
+
+
+            
+            <!--=============== CASE ===============-->
+            
+            
+            <!--=============== DISCOUNT ===============-->
+            <h2 class="section__title section__title-gradient dog-title" id="specs">Mes Compétences</h2>
+            <section class="discount section des" id="count1" style="display: block;">
+                
+                <div class="discount__container container grid skills">
+                    <div class="skills-column discount__animate">
+                        <h3 class="discount__title" style="color: #ff014fff;"><span class="typing"></span>
+                        </h3>
+
+
+                        <div class="skills-box">
+                            <div class="skills-content">
+                                <div class="progress">
+                                    <img src="./assets/img/moi3.jpg" alt="">
+                                    <h3 style="text-align: justify;  "></h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-column berger temp">
+                        <h3 class="discount__title" style="text-align: center;">Compétences</h3>
+                        <div class="skills-box">
+                            <div class="skills-content">
+                                <div class="progress">
+                                    <h3>Developpement Web <span> 80%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                                <div class="progress">
+                                    <h3>Cybersécurité <span> 40%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+    
+                                <div class="progress">
+                                    <h3>Maintenance<span> 90%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+    
+                                <div class="progress">
+                                    <h3>Autodidacte <span> 200%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="button-container">
+                        <a id="nextButton" class="button button--flex" onclick="toggleSections()">Suivant</a>
+                    </div>
+                    
+                </div>
+
+            </section>
+
+            <section class="discount section des" id="count2" style="display: none;">
+                <div class="discount__container container grid skills">
+                    <div class="skills-column">
+                        <h3 class="discount__title" style="color: #ff014fff;"><span class="typing2"></span> </h3>
+                        <div class="skills-box">
+                            <div class="skills-content">
+                                <div class="progress">
+                                    <img src="./assets/img/euro33.jpg" alt="">
+                                    <h3 style="text-align: justify;  "></h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-column rott">
+                        <h3 class="discount__title" style="text-align: center;">Caractères</h3>
+                        <div class="skills-box">
+                            <div class="skills-content">
+                                <div class="progress">
+                                    <h3>Dévouement <span> 90%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                                <div class="progress">
+                                    <h3>Professionalisme <span> 90%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+    
+                                <div class="progress">
+                                    <h3>Leadership <span> 45%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+    
+                                <div class="progress">
+                                    <h3>Nervosité <span> 200%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button-container">
+                        <a id="nextButton" class="button button--flex" onclick="toggleSections()">Suivant</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="discount section des" id="count3" style="display: none;">
+                <div class="discount__container container grid skills">
+                    <div class="skills-column">
+                        <h3 class="discount__title" style="color: #ff014fff;"><span class="typing3"></span> </h3>
+                        <div class="skills-box">
+                            <div class="skills-content">
+                                <div class="progress">
+                                    <img src="./assets/img/euro44.jpg" alt="">
+                                    <h3 style="text-align: justify;  "> </h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-column malin">
+                        <h3 class="discount__title" style="text-align: center;">Caractères</h3>
+                        <div class="skills-box">
+                            <div class="skills-content">
+                                <div class="progress">
+                                    <h3>Charme <span> 80%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                                <div class="progress">
+                                    <h3>Humour<span> 90%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+    
+                                <div class="progress">
+                                    <h3>Timidité <span> 80%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+    
+                                <div class="progress">
+                                    <h3>Cuisine <span> 200%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button-container">
+                        <a id="nextButton" class="button button--flex" onclick="toggleSections()">Suivant</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="discount section des" id="count2" style="display: none;">
+                <div class="discount__container container grid skills">
+                    <div class="skills-column">
+                        <h3 class="discount__title" style="color: #ff014fff;"><span class="typing4"></span></h3>
+                        <div class="skills-box">
+                            <div class="skills-content">
+                                <div class="progress">
+                                    <img src="./assets/img/moi5.jpg" alt="">
+                                    <h3 style="text-align: justify;  "></h3>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-column dober">
+                        <h3 class="discount__title" style="text-align: center;">Compétences</h3>
+                        <div class="skills-box">
+                            <div class="skills-content">
+                                <div class="progress">
+                                    <h3>&nbsp; ?? ?? <span> 100%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                                <div class="progress">
+                                    <h3>&nbsp; ?? ?? <span> 80%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+    
+                                <div class="progress">
+                                    <h3>&nbsp; ?? ?? <span> 80%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+    
+                                <div class="progress">
+                                    <h3>&nbsp; ?? ?? <span> 75%</span></h3>
+                                    <div class="bar"><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button-container">
+                        <a id="nextButton" class="button button--flex" onclick="toggleSections()">Suivant</a>
+                    </div>
+                </div>
+            </section>
+
+
+            
+
+
+            <!--=============== PRODUCTS ===============-->
+            
+
+            <!--=============== FAQS ===============-->
+            <section class="faq-section footer__copy" id="faq">
+                
+
+                <div class="faq-more">
+                    <p>N'hésitez pas à me contacter. <br>
+                        Vous satisfaire est ma priorité. <br>
+                    </p>
+                </div>
+               
+            </section>
+ 
+            <!--ORIGIN SECTION-->
+
+             <!--=============== ABOUT US ===============-->             
+            
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+
+                <a href="#" class="footer__logo">
+                    <img src="assets/img/kaledeuro-favicon2.png" alt="">
+                </a>
+                <div id="contact" class="footer__content">
+                    <h3 class="footer__title">Contactez-moi</h3>
+    
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#footer" class="footer__link">Création de Site</a>
+                        </li>
+                        <li>
+                            <a href="#footer" class="footer__link">Programmation</a>
+                        </li>
+                        <li>
+                            <a href="#footer" class="footer__link">Sécurisation</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Maintenance</a>
+                        </li>
+                    </ul>
+                </div>
+
+            
+                <div class="footer__content">
+    
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="mailto:kaledeuro@gmail.com?subject=Demande%20d'information&body=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur%20vos%20services" target="_blank" class="footer__social-link">
+                            <i class="ri-mail-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="https://wa.me/c/22672720956?text=Bonjour,%20je%20suis%20intéressé%20par%20vos%20services" target="_blank" class="footer__social-link">
+                            <i class="ri-whatsapp-line"></i></a>
+                        
+                    </div>
+
+                    <div class="footer__content">
+                        <br>
+                        
+                        <h4><i class="fas fa-phone" style="color: var(--text-color);"></i><a href="tel:+22672720956" class="no-style">  +226 72 72 09 56</a></h4>
+                        <h4><i class="fas fa-phone" style="color: var(--text-color);"></i><a href="tel:+21654881656" class="no-style">  +216 54 88 16 56</a></h4>
+                    </div>
+
+            
+                </div>
+                
+            </div>
+            
+            <p class="footer__copy">
+                <a class="footer__copy-link">&#169; KaledEuro. All right reserved <span id="date"></span> </a>
+            </p>
+
+        </footer>
+
+        <div>
+            <button class="dav-toggle" title="e"></button>
+        </div>
+        
+
+        <!---->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line scrollup__icon"></i>
+        </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/script.js"></script>
+
+        <script src="assets/js/main.js"></script>
+        
+        <script src="assets/js/typed.js"></script>
+        
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </body>
+</html>
