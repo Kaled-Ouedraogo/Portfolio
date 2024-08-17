@@ -11,4 +11,4 @@ N'hésitez pas à me contacter pour des services ou des collaborations. 🌟
 
 ---
 
-Cela donne une touche plus dynamique et engageante à ton repository !
+Kaled OUEDRAOGO 
