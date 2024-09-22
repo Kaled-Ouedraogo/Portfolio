@@ -96,14 +96,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    var typed = new Typed(".typing3", {
-        strings: ["La Qualité"],
-        typeSpeed: 200,
-        backSpeed: 60,
-        loop: true
-    });
-});
 
 document.addEventListener('DOMContentLoaded', function () {
     var typed = new Typed(".typing4", {
